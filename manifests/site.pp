@@ -82,7 +82,6 @@ node default {
   include irssi
   include iterm2::stable
   include moreutils
-  include moom
   include onyx
   include screen
   include skydrive
