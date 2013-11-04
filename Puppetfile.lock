@@ -64,6 +64,11 @@ GITHUBTARBALL
     iterm2 (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-moreutils
   specs:
     moreutils (1.0.0)
@@ -203,6 +208,7 @@ DEPENDENCIES
   inifile (= 1.0.0)
   irssi (>= 0)
   iterm2 (>= 0)
+  macvim (>= 0)
   moreutils (>= 0)
   nginx (= 1.4.2)
   onyx (>= 0)
