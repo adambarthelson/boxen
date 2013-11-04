@@ -76,6 +76,25 @@ node default {
     ]:
   }
 
+  # my own stuff
+  include chrome
+  include dropbox
+  include irssi
+  include iterm2
+  include moreutils
+  include onyx
+  include screen
+  include skydrive
+  include skype
+  include sourcetree
+  include spotify
+  include tunnelblick
+  include vagrant
+  include virtualbox
+  include vlc
+  include wget
+  include xz
+  
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
