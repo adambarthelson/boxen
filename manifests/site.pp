@@ -61,6 +61,7 @@ node default {
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
+
   # default ruby versions
   include ruby::1_8_7
   include ruby::1_9_2
