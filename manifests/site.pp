@@ -79,7 +79,8 @@ node default {
       'gnu-indent',
       'gnu-sed',
       'gnu-tar',
-      'htop'
+      'htop',
+      'tmux'
     ]:
   }
 
