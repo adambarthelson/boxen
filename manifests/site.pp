@@ -100,6 +100,7 @@ node default {
   include spotify
   include tunnelblick
   include vagrant
+  include vim
   include virtualbox
   include vlc
   include wget
