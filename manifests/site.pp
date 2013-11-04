@@ -96,6 +96,16 @@ node default {
   include wget
   include xz
   
+  # osx config options
+  osx::global::enable_keyboard_control_access
+  osx::global::expand_print_dialog
+  osx::global::expand_save_dialog
+  osx::dock::autohide
+  osx::finder::unhide_library
+  osx::universal_access::ctrl_mod_zoom 
+  osx::no_network_dsstores
+  osx::software_update
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
