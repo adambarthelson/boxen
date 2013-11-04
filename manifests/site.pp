@@ -80,7 +80,7 @@ node default {
   include chrome
   include dropbox
   include irssi
-  include iterm2
+  include iterm2::stable
   include moreutils
   include onyx
   include screen
