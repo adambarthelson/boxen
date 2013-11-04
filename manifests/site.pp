@@ -71,7 +71,13 @@ node default {
   package {
     [
       'ack',
+      'coreutils',
       'findutils',
+      'gawk',
+      'gnutls',
+      'gnu-getopt',
+      'gnu-indent',
+      'gnu-sed',
       'gnu-tar'
     ]:
   }
