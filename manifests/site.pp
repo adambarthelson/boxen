@@ -78,7 +78,8 @@ node default {
       'gnu-getopt',
       'gnu-indent',
       'gnu-sed',
-      'gnu-tar'
+      'gnu-tar',
+      'htop'
     ]:
   }
 
