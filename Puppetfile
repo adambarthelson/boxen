@@ -55,13 +55,14 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
 github "chrome"
 github "dropbox"
 github "evernote"
 github "irssi"
 github "iterm2"
 github "moreutils"
-github "moom", :repo => "dttocs/puppet-moom"
+github "moom",       "1.0.0",  :repo => "dttocs/puppet-moom"
 github "osx"
 github "osxfuse"
 github "onyx"
