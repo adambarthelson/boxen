@@ -216,7 +216,7 @@ DEPENDENCIES
   evernote (>= 0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
-  git (= 1.2.5)
+  git (>= 0)
   go (= 1.0.0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
