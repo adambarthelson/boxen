@@ -154,6 +154,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-textmate
+  specs:
+    textmate (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-tunnelblick
   specs:
     tunnelblick (1.0.2)
@@ -237,6 +242,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_2 (>= 0)
   sudo (= 1.0.0)
+  textmate (>= 0)
   tunnelblick (>= 0)
   vagrant (>= 0)
   vim (>= 0)

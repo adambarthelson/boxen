@@ -100,6 +100,7 @@ node default {
   include sourcetree
   include sublime_text_2
   include spotify
+  include textmate::textmate2::release
   include tunnelblick
   include vagrant
   include vim
