@@ -93,7 +93,6 @@ node default {
   include iterm2::stable
   include macvim
   include moreutils
-  include onyx
   include screen
   include skydrive
   include skype
