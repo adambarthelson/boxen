@@ -89,6 +89,7 @@ node default {
   # my own stuff
   include chrome
   include dropbox
+  include googleearth
   include irssi
   include iterm2::stable
   include macvim
