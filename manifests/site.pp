@@ -81,7 +81,8 @@ node default {
       'gnu-sed',
       'gnu-tar',
       'htop',
-      'tmux'
+      'tmux',
+      'youtube-dl'
     ]:
   }
 
