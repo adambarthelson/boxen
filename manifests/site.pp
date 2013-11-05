@@ -98,6 +98,7 @@ node default {
   include skydrive
   include skype
   include sourcetree
+  include sublime_text_2
   include spotify
   include tunnelblick
   include vagrant
