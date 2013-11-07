@@ -90,6 +90,7 @@ node default {
   include chrome
   include dropbox
   include irssi
+  include gh
   include iterm2::stable
   include macvim
   include moreutils
