@@ -81,6 +81,7 @@ node default {
       'gnu-sed',
       'gnu-tar',
       'htop',
+      'task',
       'tmux',
       'youtube-dl'
     ]:
@@ -91,6 +92,7 @@ node default {
   include dropbox
   include irssi
   include gh
+	include heroku
   include iterm2::stable
   include macvim
   include moreutils
