@@ -79,11 +79,6 @@ GITHUBTARBALL
     nginx (1.4.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-onyx
-  specs:
-    onyx (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -226,7 +221,6 @@ DEPENDENCIES
   macvim (>= 0)
   moreutils (>= 0)
   nginx (= 1.4.2)
-  onyx (>= 0)
   openssl (= 1.0.0)
   osx (>= 0)
   osxfuse (>= 0)
