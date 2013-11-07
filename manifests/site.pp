@@ -86,6 +86,10 @@ node default {
     ]:
   }
 
+  exec { 'install gh':
+    command => 'brew install https://raw.github.com/jingweno/gh/master/homebrew/gh.rb',
+  }
+
   # my own stuff
   include chrome
   include dropbox
