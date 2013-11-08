@@ -100,8 +100,8 @@ node default {
   include skydrive
   include skype
   include sourcetree
-  include sublime_text_2
   include spotify
+  include sublime_text_2
   include textmate::textmate2::release
   include tunnelblick::beta
   include vagrant
