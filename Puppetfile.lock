@@ -213,8 +213,14 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: svizzari/puppet-brackets
+  specs:
+    brackets (0.1.3)
+
 DEPENDENCIES
   boxen (= 3.3.4)
+  brackets (= 0.1.3)
   chrome (>= 0)
   dnsmasq (= 1.0.0)
   dropbox (>= 0)

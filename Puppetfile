@@ -54,6 +54,7 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "brackets",  "0.1.3", :repo => "svizzari/puppet-brackets"
 github "chrome"
 github "dropbox"
 github "evernote"

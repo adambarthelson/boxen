@@ -92,7 +92,7 @@ node default {
   include dropbox
   include irssi
   include gh
-	include heroku
+  include heroku
   include iterm2::stable
   include macvim
   include moreutils
@@ -103,7 +103,7 @@ node default {
   include sublime_text_2
   include spotify
   include textmate::textmate2::release
-  include tunnelblick
+  include tunnelblick::beta
   include vagrant
   include vim
   include virtualbox
