@@ -179,11 +179,6 @@ GITHUBTARBALL
     vagrant (3.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vim
-  specs:
-    vim (1.0.5)
-
-GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.7)
@@ -207,6 +202,11 @@ GITHUBTARBALL
   remote: boxen/puppet-xz
   specs:
     xz (1.0.0)
+
+GITHUBTARBALL
+  remote: gkze/puppet-vim
+  specs:
+    vim (1.0.6)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -257,7 +257,7 @@ DEPENDENCIES
   textmate (>= 0)
   tunnelblick (>= 0)
   vagrant (>= 0)
-  vim (>= 0)
+  vim (= 1.0.6)
   virtualbox (>= 0)
   vlc (>= 0)
   wget (>= 0)
