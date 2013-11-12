@@ -82,6 +82,7 @@ node default {
       'gnu-tar',
       'htop',
       'task',
+      'the_silver_searcher',
       'tmux',
       'youtube-dl'
     ]:
@@ -89,6 +90,7 @@ node default {
 
   # my own stuff
   include chrome
+  include emacs
   include dropbox
   include irssi
   include gh
@@ -100,6 +102,7 @@ node default {
   include skydrive
   include skype
   include sourcetree
+  include spotify
   include sublime_text_2
   include textmate::textmate2::release
   include tunnelblick::beta

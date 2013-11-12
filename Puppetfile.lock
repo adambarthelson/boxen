@@ -19,6 +19,11 @@ GITHUBTARBALL
     dropbox (1.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-evernote
   specs:
     evernote (2.0.4)
@@ -144,6 +149,11 @@ GITHUBTARBALL
     sourcetree (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.1.2)
@@ -208,17 +218,12 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
-GITHUBTARBALL
-  remote: svizzari/puppet-brackets
-  specs:
-    brackets (0.1.3)
-
 DEPENDENCIES
   boxen (= 3.3.4)
-  brackets (= 0.1.3)
   chrome (>= 0)
   dnsmasq (= 1.0.0)
   dropbox (>= 0)
+  emacs (>= 0)
   evernote (>= 0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
@@ -245,6 +250,7 @@ DEPENDENCIES
   skydrive (>= 0)
   skype (>= 0)
   sourcetree (>= 0)
+  spotify (>= 0)
   stdlib (= 4.1.0)
   sublime_text_2 (>= 0)
   sudo (= 1.0.0)
