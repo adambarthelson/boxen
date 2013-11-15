@@ -80,6 +80,7 @@ node default {
       'gnu-indent',
       'gnu-sed',
       'gnu-tar',
+      'nodejs',
       'task',
       'the_silver_searcher',
       'tmux',
