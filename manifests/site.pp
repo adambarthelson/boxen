@@ -80,7 +80,9 @@ node default {
       'gnu-indent',
       'gnu-sed',
       'gnu-tar',
+      'icu4c',
       'nodejs',
+      'pyenv',
       'task',
       'the_silver_searcher',
       'tmux',
@@ -93,6 +95,7 @@ node default {
   include emacs
   include dropbox
   include irssi
+  include github_for_mac
   include gh
   include heroku
   include iterm2::stable
